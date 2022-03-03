@@ -1,0 +1,1 @@
+command ls | grep -Po '^.+(?=-\d)' | uniq | wc -l
